@@ -1,0 +1,76 @@
+<style>
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+h1{
+	color: #C0C0C0;
+	font-style: italic;
+	font-weight: bold;
+}
+h2{
+	color: #000000;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+div.container{
+	background-color: #000000;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-default{
+	background-color:#000000; 
+}
+.content{
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	color: #000000; 
+}
+#content{
+	background-color: #87CEFA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 15px 15px 15px 15px;
+	margin-top: 25px
+	margin-bottom: 30px;
+	margin: 0 auto 15px;
+	height: auto;
+}
+@media (min-width: 1200px){
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: left;
+}
+
+	.col-lg-4{
+		width: 33.33%
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+   }
+   .col-md-6{
+   	width: 50%;
+   }
+
+@media(min-width: 768px) and (max-width: 991px){
+	.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+.col-sm-12{
+	width: 100%;
+}
+
+@media(min-width: 767px){
+	.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    float: left;
+}
+.col-xs-12{
+	width: 100%;
+}
+</style>
+
